@@ -1,0 +1,71 @@
+<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <g>
+  <title>walls</title>
+  <line stroke="#000000" fill="none" x1="100" y1="100" x2="100" y2="1100" id="svg_1"/>
+  <line stroke="#000000" fill="none" x1="100" y1="1100" x2="600" y2="1100" id="svg_2"/>
+  <line stroke="#000000" fill="none" x1="600" y1="1100" x2="600" y2="600" id="svg_3"/>
+  <line stroke="#000000" fill="none" x1="100" y1="650" x2="450" y2="650" id="svg_4"/>
+  <line stroke="#000000" fill="none" x1="450" y1="600" x2="450" y2="700" id="svg_5"/>
+  <line stroke="#000000" fill="none" x1="450" y1="600" x2="600" y2="600" id="svg_6"/>
+  <line stroke="#000000" fill="none" x1="450" y1="700" x2="600" y2="700" id="svg_7"/>
+  <line stroke="#000000" fill="none" x1="600" y1="750" x2="1000" y2="750" id="svg_8"/>
+  <line stroke="#000000" fill="none" x1="1000" y1="750" x2="1000" y2="650" id="svg_9"/>
+  <line stroke="#000000" fill="none" x1="1000" y1="650" x2="1200" y2="650" id="svg_10"/>
+  <line stroke="#000000" fill="none" x1="1200" y1="750" x2="1200" y2="650" id="svg_11"/>
+  <line stroke="#000000" fill="none" x1="1200" y1="750" x2="1500" y2="750" id="svg_12"/>
+  <line stroke="#000000" fill="none" x1="1500" y1="750" x2="1500" y2="100" id="svg_13"/>
+  <line stroke="#000000" fill="none" x1="1500" y1="100" x2="1200" y2="100" id="svg_14"/>
+  <line stroke="#000000" fill="none" x1="1200" y1="100" x2="1200" y2="650" id="svg_15"/>
+  <line stroke="#000000" fill="none" x1="100" y1="100" x2="700" y2="100" id="svg_16"/>
+  <line stroke="#000000" fill="none" x1="700" y1="100" x2="700" y2="250" id="svg_17"/>
+  <line stroke="#000000" fill="none" x1="700" y1="250" x2="1200" y2="250" id="svg_18"/>
+  <line stroke="#000000" fill="none" x1="100" y1="450" x2="450" y2="450" id="svg_19"/>
+  <line stroke="#000000" fill="none" x1="450" y1="100" x2="450" y2="600" id="svg_20"/>
+  <line stroke="#000000" fill="none" x1="325" y1="450" x2="325" y2="650" id="svg_21"/>
+  <line stroke="#000000" fill="none" x1="650" y1="500" x2="700" y2="500" id="svg_22"/>
+  <line stroke="#000000" fill="none" x1="700" y1="500" x2="700" y2="350" id="svg_23"/>
+ </g>
+ <g>
+  <title>windows</title>
+  <line stroke-width="4" fill="none" x1="100" y1="600" x2="100" y2="1099" id="svg_24" stroke="#000000"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="100" y1="1100" x2="150" y2="1100" id="svg_25"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="550" y1="1100" x2="600" y2="1100" id="svg_26"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="600" y1="1100" x2="600" y2="600" id="svg_27"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="100" y1="650" x2="450" y2="650" id="svg_28"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="450" y1="600" x2="450" y2="700" id="svg_29"/>
+  <line stroke="#000000" stroke-width="4" fill="none" x1="450" y1="600" x2="525" y2="600" id="svg_30"/>
+  <line stroke="#000000" stroke-width="4" fill="none" x1="450" y1="700" x2="525" y2="700" id="svg_31"/>
+  <line stroke="#000000" stroke-width="4" fill="none" x1="600" y1="750" x2="650" y2="750" id="svg_32"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="1000" y1="750" x2="1000" y2="650" id="svg_33"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="1200" y1="750" x2="1200" y2="650" id="svg_35"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="1200" y1="750" x2="1500" y2="750" id="svg_36"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="1500" y1="750" x2="1500" y2="100" id="svg_37"/>
+  <line stroke-width="4" fill="none" x1="1200" y1="100" x2="1300" y2="100" id="svg_38" stroke="#000000"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="1200" y1="100" x2="1200" y2="650" id="svg_39"/>
+  <line stroke-width="4" fill="none" x1="100" y1="100" x2="150" y2="100" id="svg_40" stroke="#000000"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="700" y1="100" x2="700" y2="250" id="svg_41"/>
+  <line stroke-width="4" fill="none" x1="700" y1="250" x2="800" y2="248.66667" id="svg_42" stroke="#000000"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="100" y1="450" x2="450" y2="450" id="svg_43"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="450" y1="100" x2="450" y2="600" id="svg_44"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="325" y1="450" x2="325" y2="650" id="svg_45"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="650" y1="500" x2="700" y2="500" id="svg_46"/>
+  <line stroke-width="4" stroke="#000000" fill="none" x1="700" y1="500" x2="700" y2="350" id="svg_47"/>
+  <line stroke-width="4" fill="none" x1="500" y1="100" x2="300" y2="100" stroke="#000000" id="svg_48"/>
+  <line stroke-width="4" fill="none" x1="100" y1="100" x2="100" y2="230" stroke="#000000" id="svg_49"/>
+  <line fill="none" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="100" y1="300" x2="100" y2="550" id="svg_50" stroke="#000000"/>
+  <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="650" y1="100" x2="700" y2="100" id="svg_51"/>
+  <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1200" y1="250" x2="1100" y2="250" id="svg_52"/>
+  <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1400" y1="100" x2="1500" y2="100" id="svg_54"/>
+  <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1500" y1="350" x2="1300" y2="350" id="svg_55"/>
+  <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1500" y1="450" x2="1300" y2="450" id="svg_56"/>
+  <line id="svg_62" y2="362.5" x2="1300" y1="350" x1="1300" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="4" stroke="#000000" fill="none"/>
+  <line id="svg_63" y2="450" x2="1300" y1="437.5" x1="1300" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="4" stroke="#000000" fill="none"/>
+ </g>
+ <g>
+  <title>doors</title>
+  <path class="door" transform="rotate(-179.677978515625 560.4645385742188,736.6590576171876) " fill="none" d="m522.964533,774.159063l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" id="svg_34" stroke="#000000"/>
+  <path transform="rotate(-179.62832641601562 561.6653442382814,637.5833740234376) " id="svg_53" class="door" fill="none" d="m524.165375,675.083351l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+  <path id="svg_58" class="door" transform="rotate(-0.2965766489505768 1105.9755859375073,612.5910644530825) " fill="none" d="m1068.475637,650.091067l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+  <path id="svg_59" class="door" transform="rotate(90.21985626220703 1337.3780517578125,400.27734375000017) " fill="none" d="m1299.878104,437.777346l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+ </g>
+</svg>

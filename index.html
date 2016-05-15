@@ -1,9 +1,93 @@
 <!DOCTYPE html>
 <html>
 <head>
-    
+    <!-- Import jQuery -->
+    <script type="text/javascript" src="js/jquery-2.2.3.js"></script>
+    <!-- Import Bootstrap -->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Import Font Awesome -->
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- Custom JS -->
+    <script type="text/javascript" src="js/script.js"></script>
+    <title>Home - MyAutoHome by XYZ</title>
+
+    <style>
+        div{
+            border:1px solid rgba(255, 67, 101, 0.49);
+        }
+        li{
+            border:1px solid rgba(116, 187, 136, 0.6);
+        }
+        li
+    </style>
 </head>
 <body>
-    
+    <div class="container-fluid">
+        <div class="col-sm-4">
+            <a href="#">MyAutoHome <img src="img/logo.svg" height=20px" width="20px" alt=""> <sub>by XYZ</sub></a>
+        </div>
+        <div class="col-sm-8 text-right">
+            <ul class="list-inline">
+                <li><select name="language" id="language-select">
+                    <option value="en">English</option>
+                    <option value="jp">Japanese</option>
+                </select></li>
+                <li><i class="fa fa-font-awesome" aria-hidden="true"></i></li>
+                <li><i class="fa fa-cog" aria-hidden="true"></i></li>
+                <li><i class="fa fa-user" aria-hidden="true"></i></li>
+            </ul>
+        </div>
+    </div>
+    <div class="img-container" style="position:relative;left:0;top:0;">
+        <img id="map-image" class="img-responsive" src="img/map.svg" width="800" height="600" alt="">
+        <div class="icon-container lights">
+            <div class="light-icon on" style="position:absolute; top:23%; left:17%;"></div>
+            <div class="light-icon on" style="position:absolute; top:74%; left:22%;"></div>
+            <div class="light-icon on" style="position:absolute; top:28%; left:36%;"></div>
+            <div class="light-icon on" style="position:absolute; top:36%; left:59%;"></div>
+            <div class="light-icon on" style="position:absolute; top:52%; left:50%;"></div>
+            <div class="light-icon on" style="position:absolute; top:53%; left:84.5%;"></div>
+            <div class="light-icon on" style="position:absolute; top:18%; left:84.5%;"></div>
+            <div class="light-icon on" style="position:absolute; top:60%; left:69%;"></div>
+            <div class="light-icon on" style="position:absolute; top:13%; left:60%;"></div>
+        </div>
+    </div>
+    <div class="menu-bar">
+        <ul class="list-inline center-block text-center">
+            <li class="menu-bar-item">
+                <img src="http://placehold.it/100x100" alt="">
+                <p class="menu-bar-label">Home</p>
+            </li>
+            <li class="menu-bar-item">
+                <img src="http://placehold.it/100x100" alt="">
+                <p class="menu-bar-label">Doors & Windows</p>
+            </li>
+            <li class="menu-bar-item">
+                <img src="http://placehold.it/100x100" alt="">
+                <p class="menu-bar-label">Lights</p>
+            </li>
+            <li class="menu-bar-item">
+                <img src="http://placehold.it/100x100" alt="">
+                <p class="menu-bar-label">Security</p>
+            </li>
+            <li class="menu-bar-item">
+                <img src="http://placehold.it/100x100" alt="">
+                <p class="menu-bar-label">Temperature</p>
+            </li>
+            <li class="menu-bar-item">
+                <img src="http://placehold.it/100x100" alt="">
+                <p class="menu-bar-label">Appliances</p>
+            </li>
+            <li class="menu-bar-item">
+                <img src="http://placehold.it/100x100" alt="">
+                <p class="menu-bar-label">Intercom</p>
+            </li>
+        </ul>
+    </div>
 </body>
 </html>
