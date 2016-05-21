@@ -3,7 +3,7 @@ html,body{
 }
 
 .img-container{
-    padding-top:20px;
+	
 }
 
 .img-responsive{
@@ -13,17 +13,22 @@ html,body{
 .menu-bar{
     position:fixed;
     bottom:0;
-    width:100%;
+    width:90%;
+    text-align: center;
+    margin-left:5%;
+    margin-right:5%;
 }
 
 /* Icons */
 .light-icon{
     width:50px;
     height:50px;
-    margin-left:-25px;
-    margin-top:-25px;
     background-size: 50px 50px;
     transition: background-image 0.3s;
+}
+
+.room-overview{
+    transition: all 0.3s;
 }
 
 .light-icon.on{
@@ -31,4 +36,187 @@ html,body{
 }
 .light-icon.off{
     background-image:url("../img/bulb-off.png");
+}
+
+.door-switch{
+	padding:0;
+	width:50px;
+}
+
+.switch-button,.switch-bg{
+	transition:all 0.3s;
+}
+
+.toggle-switch{
+    width:50px;
+    height:25px;
+}
+.switch-bg{
+    width:50px;
+    height:25px;
+}
+.toggle-switch.off>.switch-bg{
+    -webkit-filter:saturate(0);
+    filter:saturate(0);
+}
+.toggle-switch>.switch-button{
+    position:relative;
+    top:-25px;
+    left:25px;
+    width:25px;
+    height:25px;
+}
+.toggle-switch.off>.switch-button{
+    left:0;
+}
+
+.security-camera{
+    width:150px;
+    height:150px;
+    background-size:150px 150px;
+    background-image:url('../img/camera.png');
+}
+
+.security-camera-hitbox{
+    width:50px;
+    height:50px;
+    margin-top:50px;
+    margin-left:-15px;
+}
+
+.notifications-container{
+    position:fixed;
+    right:0;
+}
+.notifications-list i{
+    width:50px;
+    text-align:center;
+    vertical-align:center;
+}
+
+.inline-block{
+    display:inline-block;
+}
+
+.menu-pointer{
+    width:100px;
+    height:20px;
+    background-image:url('../img/pointer.png');
+    position:relative;
+    transition: all 0.3s;
+}
+
+.notifications-container{
+    z-index: 1000;
+}
+
+.menu-bar-item{
+    display:inline-block;
+    text-align: center;
+    position:relative;
+    transition:all 0.3s;
+    bottom:0;
+    width:130px;
+}
+
+.menu-bar-item img{
+    width:100px;
+    height:100px;
+}
+
+.menu-bar-item.active,
+.menu-bar-item.active:hover{
+    bottom:10px;
+    border-bottom:1px solid black;
+}
+
+.menu-bar-item:hover{
+    bottom:5px;
+}
+/* Visual stuff */
+.nav{
+    background-color:black;
+    margin-left:5%;
+    margin-right:5%;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    box-shadow: 0 0 2px 3px #888888;
+}
+.nav a{
+    color:white;
+}
+
+ul{
+    padding: 0;
+    list-style-type: none;
+}
+
+.img-container,body{
+}
+
+.room-overview-title,.room-overview.secure{
+    padding:10px;
+    border-radius:5px;
+    background-color:#5cb85c;
+    color:white;
+    font-family:sans-serif;
+    font-size:15px;
+    vertical-align: middle;
+}
+.room-overview-title{
+    background-color:#f0ad4e;
+}
+
+.menu-bar{
+    filter:invert(100%);
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+    box-shadow: 0 0 2px 3px #888888;
+
+}
+/* align modal to middle of screen */
+.modal {
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .modal:before {
+        display: inline-block;
+        vertical-align: middle;
+        content: " ";
+        height: 100%;
+    }
+}
+
+.modal-dialog {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.modal-title,.modal-body{
+    text-align:center;
+}
+
+/* fa badge */
+
+i {
+    text-align:center;
+    vertical-align:middle;
+    position: relative;
+}
+.badge:after{
+    content:"2";
+    position: absolute;
+    background: rgb(247, 0, 0);
+    height:2rem;
+    top:1rem;
+    right:-1rem;
+    width:2rem;
+    text-align: center;
+    line-height: 2rem;;
+    font-size: 1.25rem;
+    border-radius: 50%;
+    font-family:sans-serif;
+    font-weight: bolder;
 }

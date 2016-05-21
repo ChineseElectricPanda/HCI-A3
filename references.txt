@@ -1,1 +1,5 @@
-light bulb image  |  http://cliparwolf.com/cliparts/files3/lightbulb-icon-LightBulbOn.png
+light bulb image  | http://cliparwolf.com/cliparts/files3/lightbulb-icon-LightBulbOn.png
+font awesome
+fa2png.io
+modal copypasta http://www.w3schools.com/bootstrap/bootstrap_modal.asp
+modal vertical align middle http://stackoverflow.com/questions/18422223/bootstrap-3-modal-vertical-position-center

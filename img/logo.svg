@@ -6,13 +6,6 @@
   </filter>
  </defs>
  <g>
-  <title>background</title>
-  <rect fill="#fff" id="canvas_background" height="102" width="102" y="-1" x="-1"/>
-  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
-   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
-  </g>
- </g>
- <g>
   <title>Layer 1</title>
   <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="205.5" x2="78" y1="52.5" x1="259" stroke-width="1.5" stroke="#000" fill="none"/>
   <line stroke="#000" stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_2" y2="44.5" x2="247" y1="48.5" x1="252" stroke-width="1.5" fill="none"/>

@@ -17,19 +17,15 @@
     <title>Home - MyAutoHome by XYZ</title>
 
     <style>
-        div{
-            border:1px solid rgba(255, 67, 101, 0.49);
+        div {
+            border: 0px solid rgba(255, 0, 0, 0.42);
         }
-        li{
-            border:1px solid rgba(116, 187, 136, 0.6);
-        }
-        li
     </style>
 </head>
 <body>
-    <div class="container-fluid">
+    <div class="container-fluid nav">
         <div class="col-sm-4">
-            <a href="#">MyAutoHome <img src="img/logo.svg" height=20px" width="20px" alt=""> <sub>by XYZ</sub></a>
+            <a href="#">MyAutoHome <img src="img/logo.png" style="-webkit-filter:invert(100%)" height=20px" width="20px" alt=""> <sub>by XYZ</sub></a>
         </div>
         <div class="col-sm-8 text-right">
             <ul class="list-inline">
@@ -37,57 +33,197 @@
                     <option value="en">English</option>
                     <option value="jp">Japanese</option>
                 </select></li>
-                <li><i class="fa fa-font-awesome" aria-hidden="true"></i></li>
+                <li><i class="fa fa-font-awesome badge" id="notifications-button" aria-hidden="true"> </i></li>
                 <li><i class="fa fa-cog" aria-hidden="true"></i></li>
                 <li><i class="fa fa-user" aria-hidden="true"></i></li>
             </ul>
         </div>
     </div>
+    <div class="notifications-container hidden">
+        <ul class="notifications-list">
+            <li><i class="fa fa-exclamation-triangle fa-2x"></i><div class="inline-block">Dishwasher Malfunction<br>3 hr ago</div></li>
+            <li><i class="fa fa-info-circle fa-2x"></i><div class="inline-block">Alarm Armed<br>14 hr ago</div></li>
+        </ul>
+    </div>
     <div class="img-container" style="position:relative;left:0;top:0;">
         <img id="map-image" class="img-responsive" src="img/map.svg" width="800" height="600" alt="">
-        <div class="icon-container lights">
-            <div class="light-icon on" style="position:absolute; top:23%; left:17%;"></div>
-            <div class="light-icon on" style="position:absolute; top:74%; left:22%;"></div>
-            <div class="light-icon on" style="position:absolute; top:28%; left:36%;"></div>
-            <div class="light-icon on" style="position:absolute; top:36%; left:59%;"></div>
-            <div class="light-icon on" style="position:absolute; top:52%; left:50%;"></div>
-            <div class="light-icon on" style="position:absolute; top:53%; left:84.5%;"></div>
-            <div class="light-icon on" style="position:absolute; top:18%; left:84.5%;"></div>
-            <div class="light-icon on" style="position:absolute; top:60%; left:69%;"></div>
-            <div class="light-icon on" style="position:absolute; top:13%; left:60%;"></div>
+		<div class="icon-container main">
+            <div class="room-overview center-align secure" style="position:absolute; top:23%; left:17%;">
+                <i class="fa fa-check-circle"></i> <span style="vertical-align:middle">Secure</span>
+			</div>
+            <div class="room-overview center-align secure" style="position:absolute; top:74%; left:22%;">
+                <i class="fa fa-check-circle"></i> <span style="vertical-align:middle">Secure</span>
+            </div>
+            <div class="room-overview center-align secure" style="position:absolute; top:28%; left:36%;">
+                <i class="fa fa-check-circle"></i> <span style="vertical-align:middle">Secure</span>
+            </div>
+            <div class="room-overview center-align not-secure" style="position:absolute; top:36%; left:59%;">
+                <div class="room-overview-title">
+                    <i class="fa fa-times-circle"></i> <span style="vertical-align:middle">Not Secure</span> <i class="fa fa-caret-down"></i>
+                </div>
+                <div class="room-overview-detail hidden">
+                    <ul class="room-overview-list">
+                        <li>
+                            <i class="fa fa-check-circle"></i> <span style="vertical-align:middle">Lights Off</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="room-overview center-align secure" style="position:absolute; top:53%; left:84.5%;">
+                <i class="fa fa-check-circle"></i> <span style="vertical-align:middle">Secure</span>
+            </div>
+            <div class="room-overview center-align secure" style="position:absolute; top:18%; left:84.5%;">
+                <i class="fa fa-check-circle"></i> <span style="vertical-align:middle">Secure</span>
+            </div>
+        </div>
+		<div class="icon-container doors-windows" style="display:none">
+            <div class="toggle-switch center-align off" style="position:absolute; top:11%; left:14%;">
+				<img class="switch-bg" src="img/switch-bg.png">
+				<img class="switch-button" src="img/switch-button.png">
+			</div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:22%; left:10%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:11%; left:36%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:23%; left:59%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:89%; left:22%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:57%; left:69%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:11%; left:84.5%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:28%; left:36%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+            <div class="toggle-switch center-align on" style="position:absolute; top:28%; left:36%;">
+                <img class="switch-bg" src="img/switch-bg.png">
+                <img class="switch-button" src="img/switch-button.png">
+            </div>
+        </div>
+        <div class="icon-container lights" style="display:none">
+            <div class="light-icon on center-align" style="position:absolute; top:23%; left:17%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:74%; left:22%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:28%; left:36%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:36%; left:59%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:52%; left:50%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:53%; left:84.5%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:18%; left:84.5%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:60%; left:69%;"></div>
+            <div class="light-icon on center-align" style="position:absolute; top:13%; left:60%;"></div>
+        </div>
+        <div class="icon-container security" style="display:none">
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(45deg); top:51%; left:4%;">
+                <div class="security-camera-hitbox"></div>
+            </div>
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(225deg); top:16%; left:12%;">
+                <div class="security-camera-hitbox"></div>
+            </div>
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(45deg); top:5%; left:26%;">
+                <div class="security-camera-hitbox" data-toggle="modal" data-target="#security-kitchen"></div>
+            </div>
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(135deg); top:17%; left:59%;">
+                <div class="security-camera-hitbox"></div>
+            </div>
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(135deg); top:51%; left:59%;">
+                <div class="security-camera-hitbox" data-toggle="modal" data-target="#security-door"></div>
+            </div>
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(135deg); top:5%; left:78%;">
+                <div class="security-camera-hitbox"></div>
+            </div>
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(315deg); top:-1%; left:41%;">
+                <div class="security-camera-hitbox"></div>
+            </div>
+            <div class="security-camera" style="position:absolute; -webkit-transform:rotate(225deg); top:41%; left:78%;">
+                <div class="security-camera-hitbox"></div>
+            </div>
         </div>
     </div>
     <div class="menu-bar">
-        <ul class="list-inline center-block text-center">
-            <li class="menu-bar-item">
-                <img src="http://placehold.it/100x100" alt="">
+            <div class="menu-bar-item active" data-item="main">
+                <img src="img/logo.png" alt="">
                 <p class="menu-bar-label">Home</p>
-            </li>
-            <li class="menu-bar-item">
+            </div>
+            <div class="menu-bar-item" data-item="doors-windows">
                 <img src="http://placehold.it/100x100" alt="">
                 <p class="menu-bar-label">Doors & Windows</p>
-            </li>
-            <li class="menu-bar-item">
-                <img src="http://placehold.it/100x100" alt="">
+            </div>
+            <div class="menu-bar-item" data-item="lights">
+                <img src="img/bulb-on.png" alt="">
                 <p class="menu-bar-label">Lights</p>
-            </li>
-            <li class="menu-bar-item">
+            </div>
+            <div class="menu-bar-item" data-item="security">
                 <img src="http://placehold.it/100x100" alt="">
                 <p class="menu-bar-label">Security</p>
-            </li>
-            <li class="menu-bar-item">
+            </div>
+            <div class="menu-bar-item" data-item="temperature">
                 <img src="http://placehold.it/100x100" alt="">
                 <p class="menu-bar-label">Temperature</p>
-            </li>
-            <li class="menu-bar-item">
+            </div>
+            <div class="menu-bar-item" data-item="applicances">
                 <img src="http://placehold.it/100x100" alt="">
                 <p class="menu-bar-label">Appliances</p>
-            </li>
-            <li class="menu-bar-item">
+            </div>
+            <div class="menu-bar-item" data-item="intercom">
                 <img src="http://placehold.it/100x100" alt="">
                 <p class="menu-bar-label">Intercom</p>
-            </li>
-        </ul>
+            </div>
+    </div>
+
+
+    <!-- Modal (door) -->
+    <div id="security-door" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Front Door</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://placehold.it/480x360">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Modal (kitchen) -->
+    <div id="security-kitchen" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Kitchen</h4>
+                </div>
+                <div class="modal-body">
+                    <img src="http://placehold.it/480x360">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+
+        </div>
     </div>
 </body>
 </html>
