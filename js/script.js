@@ -49,8 +49,13 @@ $(window).load(function(){
 	});
 
 	//Notifications button
-	$('#notifications-button,.notifications-container').click(function(){
+	$('#notifications-button,.notifications-container').click(function(event){
 		$('.notifications-container').toggleClass('hidden');
+		$(this).removeClass('badge');
+		event.stopPropagation();
+	});
+	$('body').not('#notifications-button,.notification').click(function(){
+		$('.notifications-container').addClass('hidden');
 	})
 	centerElements();
 	alignArrow();

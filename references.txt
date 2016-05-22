@@ -1,4 +1,9 @@
 light bulb image  | http://cliparwolf.com/cliparts/files3/lightbulb-icon-LightBulbOn.png
+door and window   | http://www.cadimage.com/
+security	  | https://thenounproject.com/term/security-camera/186963/
+temp		  | http://www.iconsdb.com/black-icons/temperature-2-icon.html
+appliances icon   | http://www.free-icons-download.net/icons/washing-machine-icon-1815.html
+intercom	|http://www.freepik.com/free-photos-vectors/megaphone
 font awesome
 fa2png.io
 modal copypasta http://www.w3schools.com/bootstrap/bootstrap_modal.asp

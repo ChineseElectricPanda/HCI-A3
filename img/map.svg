@@ -11,11 +11,10 @@
   <line stroke="#000000" fill="none" x1="600" y1="750" x2="1000" y2="750" id="svg_8"/>
   <line stroke="#000000" fill="none" x1="1000" y1="750" x2="1000" y2="650" id="svg_9"/>
   <line stroke="#000000" fill="none" x1="1000" y1="650" x2="1200" y2="650" id="svg_10"/>
-  <line stroke="#000000" fill="none" x1="1200" y1="750" x2="1200" y2="650" id="svg_11"/>
+  <line fill="none" x1="1200" y1="750" x2="1200" y2="457.99999" id="svg_11" stroke="#000000"/>
   <line stroke="#000000" fill="none" x1="1200" y1="750" x2="1500" y2="750" id="svg_12"/>
   <line stroke="#000000" fill="none" x1="1500" y1="750" x2="1500" y2="100" id="svg_13"/>
   <line stroke="#000000" fill="none" x1="1500" y1="100" x2="1200" y2="100" id="svg_14"/>
-  <line stroke="#000000" fill="none" x1="1200" y1="100" x2="1200" y2="650" id="svg_15"/>
   <line stroke="#000000" fill="none" x1="100" y1="100" x2="700" y2="100" id="svg_16"/>
   <line stroke="#000000" fill="none" x1="700" y1="100" x2="700" y2="250" id="svg_17"/>
   <line stroke="#000000" fill="none" x1="700" y1="250" x2="1200" y2="250" id="svg_18"/>
@@ -37,11 +36,11 @@
   <line stroke="#000000" stroke-width="4" fill="none" x1="450" y1="700" x2="525" y2="700" id="svg_31"/>
   <line stroke="#000000" stroke-width="4" fill="none" x1="600" y1="750" x2="650" y2="750" id="svg_32"/>
   <line stroke-width="4" stroke="#000000" fill="none" x1="1000" y1="750" x2="1000" y2="650" id="svg_33"/>
-  <line stroke-width="4" stroke="#000000" fill="none" x1="1200" y1="750" x2="1200" y2="650" id="svg_35"/>
+  <line stroke-width="4" fill="none" x1="1200" y1="750" x2="1200" y2="476.89063" id="svg_35" stroke="#000000"/>
   <line stroke-width="4" stroke="#000000" fill="none" x1="1200" y1="750" x2="1500" y2="750" id="svg_36"/>
   <line stroke-width="4" stroke="#000000" fill="none" x1="1500" y1="750" x2="1500" y2="100" id="svg_37"/>
   <line stroke-width="4" fill="none" x1="1200" y1="100" x2="1300" y2="100" id="svg_38" stroke="#000000"/>
-  <line stroke-width="4" stroke="#000000" fill="none" x1="1200" y1="100" x2="1200" y2="650" id="svg_39"/>
+  <line stroke-width="4" fill="none" x1="1200" y1="99.57813" x2="1200" y2="402.16163" id="svg_39" stroke="#000000"/>
   <line stroke-width="4" fill="none" x1="100" y1="100" x2="150" y2="100" id="svg_40" stroke="#000000"/>
   <line stroke-width="4" stroke="#000000" fill="none" x1="700" y1="100" x2="700" y2="250" id="svg_41"/>
   <line stroke-width="4" fill="none" x1="700" y1="250" x2="800" y2="248.66667" id="svg_42" stroke="#000000"/>
@@ -56,16 +55,31 @@
   <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="650" y1="100" x2="700" y2="100" id="svg_51"/>
   <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1200" y1="250" x2="1100" y2="250" id="svg_52"/>
   <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1400" y1="100" x2="1500" y2="100" id="svg_54"/>
-  <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1500" y1="350" x2="1300" y2="350" id="svg_55"/>
+  <line stroke="#000000" fill="none" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1500" y1="350" x2="1287.02734" y2="350" id="svg_55"/>
   <line fill="none" stroke="#000000" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1500" y1="450" x2="1300" y2="450" id="svg_56"/>
   <line id="svg_62" y2="362.5" x2="1300" y1="350" x1="1300" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="4" stroke="#000000" fill="none"/>
-  <line id="svg_63" y2="450" x2="1300" y1="437.5" x1="1300" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="4" stroke="#000000" fill="none"/>
+  <line id="svg_63" y2="497.67187" x2="1300" y1="437.5" x1="1300" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="4" fill="none" stroke="#000000"/>
+  <line fill="none" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1214.13281" y1="497.04492" x2="1200.49609" y2="497.04492" id="svg_61" stroke="#000000"/>
+  <line fill="none" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1299.8789" y1="497.57227" x2="1289.40625" y2="497.57227" id="svg_67" stroke="#000000"/>
+  <line id="svg_57" fill="none" stroke-width="4" stroke-dasharray="null" stroke-linejoin="null" stroke-linecap="null" x1="1211.9707" y1="349.33594" x2="1201.49805" y2="349.33594" stroke="#000000"/>
  </g>
  <g>
   <title>doors</title>
-  <path class="door" transform="rotate(-179.677978515625 560.4645385742188,736.6590576171876) " fill="none" d="m522.964533,774.159063l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" id="svg_34" stroke="#000000"/>
-  <path transform="rotate(-179.62832641601562 561.6653442382814,637.5833740234376) " id="svg_53" class="door" fill="none" d="m524.165375,675.083351l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
-  <path id="svg_58" class="door" transform="rotate(-0.2965766489505768 1105.9755859375073,612.5910644530825) " fill="none" d="m1068.475637,650.091067l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
-  <path id="svg_59" class="door" transform="rotate(90.21985626220703 1337.3780517578125,400.27734375000017) " fill="none" d="m1299.878104,437.777346l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+  <path class="door" transform="rotate(-179.677978515625 560.4645385742188,736.6590576171876) " fill="none" d="m522.96453,774.15906l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" id="svg_34" stroke="#000000"/>
+  <path transform="rotate(-179.62832641601562 561.6653442382814,637.5833740234376) " id="svg_53" class="door" fill="none" d="m524.16538,675.08335l75,0c-0.80853,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+  <path id="svg_58" class="door" fill="none" d="m1068.47564,650l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+  <path id="svg_59" class="door" transform="rotate(90.21985626220703 1337.3780517578125,399.2773437500001) " fill="none" d="m1299.8781,436.77735l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+  <path class="door" transform="rotate(180 1251.9805908203125,533.9446411132814) " fill="none" d="m1214.48058,571.44466l75,0c-0.80852,-38.65477 -33.23399,-73.73609 -75,-75l0,75z" stroke="#000000" id="svg_60"/>
+  <path class="door" transform="rotate(180 1162.3907470703125,440.0188598632812) " fill="none" d="m1124.89073,477.51887l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000" id="svg_68"/>
+  <path id="svg_15" class="door" fill="none" d="m1211.50011,350.14387l75,0c-0.80852,-38.65477 -33.23399,-73.73608 -75,-75l0,75z" stroke="#000000"/>
+ </g>
+ <g>
+  <title>Layer 4</title>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_64" y="397.33334" x="272" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">MASTER BEDROOM</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_65" y="1037.33333" x="354.66666" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">GARAGE</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_66" y="448" x="577.33334" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">KITCHEN</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_69" y="355.11111" x="908" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">LOUNGE</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_70" y="313.33333" x="1383.11111" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">BEDROOM 1</text>
+  <text xml:space="preserve" text-anchor="middle" font-family="Sans-serif" font-size="24" id="svg_71" y="549.33333" x="1388" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#000000">BEDROOM 2</text>
  </g>
 </svg>
